@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>doctor</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0; 
+			background-image: url(https://c0.wallpaperflare.com/preview/685/663/788/adult-doctor-girl-healthcare.jpg);
+			background-size: cover;
+		}
+
+.container{
+	        margin-left: 70px;
+	        margin-top: 20px;
+	        background: rgb(255, 255, 204);
+			padding: 25px;
+			border-radius: 10px;
+			width: 400px;
+			border: 5px solid #ff8080;
+
+			
+		}
+		h1{
+			text-align: center;
+			margin-top: 0px;
+			margin-bottom: 40px;
+			color: #333;
+		}
+		.form-group{
+			margin-bottom: 20px;
+		}
+		label{
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+			color: #555;
+/*            color: white;*/
+		}
+		button{
+			display:block;
+			margin: auto;
+			background: #ff3333;
+			color: #fff;
+			border:2px solid skyblue;
+			padding: 10px 20px;
+			border-radius: 5px;
+			font-size: 17px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+			cursor: pointer;
+
+		}
+		button:hover{
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<img src="doctor logo.png">
+	</div>
+      <nav>
+      	<ul>
+      		<li><a href="Homed.html">Home</a></li>
+      		<li><a href="About.html">About</a></li>
+      		<li><a href="Contact.html">Contact</a></li>
+      		<li><a href="Gallary.html">Gallery</a></li>
+      		<li><a href="Services.html">Services</a></li>
+      		<li><a href="Apoinment.html">Apoinment</a></li>
+      	</ul>
+
+      </nav>
+
+       <div class="container">
+      	<form>
+	         <h1>APPOINTEMNT FORM</h1>
+	         <div class="form-group">
+	         	<label>YOUR NAME:</label>
+	            <input type="text" id="name" placeholder="Enter Your Name" required>
+	        </div>
+	          <div class="form-group">
+	            	<label>YOUR EMAIL:</label>
+	                <input type="text" id="email" placeholder="Enter Your email" required>
+	            </div>
+	           <div class="form-group">
+	           	     <label>ENTER MOBILE NO.:</label>
+	                 <input type="text" id="mobile no." placeholder="Enter Your mobile no." required>
+	             </div>
+	            <div class="form-group">
+	                  <label>APPOINTEMNT DATE:</label>
+	                  <input type="text"id="appointemnt date" placeholder="appointemnt date"></textarea>
+	                  </div>
+	                <div class="form-group">
+	                	<label>GENDER:</label>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Felmale
+                        <input type="radio" name="gender">other
+                    </div>
+	             <div class="form-group">
+	             	<button>BOOK APPOINTEMNT</button>
+	             </div>     
+	</div>
+
+</body>
+</html>
